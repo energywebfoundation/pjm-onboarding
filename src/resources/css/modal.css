@@ -1,0 +1,52 @@
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+    
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-dialog {
+    max-width: 900px !important;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .modal-dialog {
+    max-width: 700px !important;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .modal-dialog {
+    max-width: 500px !important;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal-dialog {
+    max-width: 400px !important;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+}

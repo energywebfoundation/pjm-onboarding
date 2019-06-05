@@ -1,0 +1,5 @@
+export const USERS = "USERS"
+export const DELETE_USER = "DELETE_USER"
+export const REG_USER = "REG_USER"
+export const ADD_USER = "ADD_USER"
+export const UPLOAD_FILE = "UPLOAD_FILE"

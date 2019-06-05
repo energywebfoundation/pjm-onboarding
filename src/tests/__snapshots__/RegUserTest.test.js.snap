@@ -1,0 +1,1189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegUserContainer Snapshort Test Correctly Render Reg User 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      Featured
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+        >
+          Account Type:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <div
+            className="form-check form-check-inline"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="generator"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+            >
+              Generator
+            </label>
+          </div>
+          <div
+            className="form-check form-check-inline"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="trader"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+            >
+               Trader
+            </label>
+          </div>
+          <div
+            className="form-check form-check-inline"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="thirdPartyReporter"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+            >
+              Third Party Reporter
+            </label>
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (Cannot combine Third Party with any other account type)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+        >
+           PJM Member:
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="pjmMember"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+            >
+               PJM Member
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="pcomnametxt"
+        >
+          Parent Company Name:
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="pcomnametxt"
+            name="parentCompanyName"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="wostxt"
+        >
+          Wholly Owned Subsidiaries:
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="wostxt"
+            name="subsuduariesOwner"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="cntxt"
+        >
+          Company Name:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="cntxt"
+            name="companyName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      GATS-Specific Contact Info
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+        >
+          Display Contact Info on Account Holder Report?
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <div
+            className="form-check form-check-inline"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="displayContactInfo"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="defaultCheck1"
+            >
+              Generator
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="fntxt"
+        >
+          First Name:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="fntxt"
+            name="firstName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="lntxt"
+        >
+          Last Name:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="lntxt"
+            name="lastName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="addrtxt"
+        >
+          Address 1:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="addrtxt"
+            name="address1"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="addr2txt"
+        >
+          Address2
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="addr2txt"
+            name="address2"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="citytxt"
+        >
+          City:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="citytxt"
+            name="city"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="statetxt"
+        >
+          State:*
+        </label>
+        <div
+          className="dropdown col-sm-8"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="true"
+            className="btn btn-secondary dropdown-toggle"
+            data-toggle="dropdown"
+            id="dropdownMenuButton"
+            type="button"
+          >
+            Select State 
+          </button>
+          <div
+            aria-labelledby="dropdownMenuButton"
+            className="dropdown-menu"
+          >
+            <a
+              className="dropdown-item"
+              href="#"
+            >
+              State 1
+            </a>
+            <a
+              className="dropdown-item"
+              href="#"
+            >
+              State 2
+            </a>
+            <a
+              className="dropdown-item"
+              href="#"
+            >
+              State 3
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="countrytxt"
+        >
+          Country:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="countrytxt"
+            name="country"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="USA"
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="zippostaltxt"
+        >
+          Zip or Postal Code:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="zippostaltxt"
+            name="zipOrPostalCode"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (US 12345/Canadian a1b 23c)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="phonetxt"
+        >
+          Phone Number:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="phonetxt"
+            name="phoneNum"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (123-456-7890)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="faxtxt"
+        >
+          Fax Number:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="faxtxt"
+            name="faxNum"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (123-456-7890)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="emailtxt"
+        >
+          E-mail:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="emailtxt"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (abc@example.com)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="webtxt"
+        >
+          Web Site
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="webtxt"
+            name="website"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <small
+            className="form-text text-muted"
+          >
+            (www.example.com)
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      Choose your Login Name and Password
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="loginametxt"
+        >
+          Login Name:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="loginametxt"
+            name="login"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            ( 1 to 20 alphanumeric)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="passtxt"
+        >
+          Password:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="passtxt"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (Minimum 7 characters with at least 1 number and 1 letter)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="passtxt2"
+        >
+          Confirmation Password:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="passtxt2"
+            name="password2"
+            type="password"
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="loginametxt"
+        >
+          Security Question:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="loginametxt"
+            name="securityQuestion"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="loginametxt"
+        >
+          Security Answer:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="loginametxt"
+            name="securityAnswer"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      Billing Information 
+    </div>
+    <div
+      className="card-body"
+    >
+      <div>
+        <button
+          className="btn btn-primary"
+        >
+          Use Subscriber Information
+        </button>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="conpersontxt"
+        >
+          Contact Person:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="conpersontxt"
+            name="billingContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="conaddr1txt"
+        >
+          Address 1:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="conaddr1txt"
+            name="address1ContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="conaddr21txt"
+        >
+          Address 2:
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="conaddr2txt"
+            name="addres2ContactPerson"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="citytxt"
+        >
+          City:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="citytxt"
+            name="cityContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="statetxt"
+        >
+          State:*
+        </label>
+        <div
+          className="dropdown col-sm-8"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="true"
+            className="btn btn-secondary dropdown-toggle"
+            data-toggle="dropdown"
+            id="dropdownMenuButton"
+            type="button"
+          >
+            Select State 
+          </button>
+          <div
+            aria-labelledby="dropdownMenuButton"
+            className="dropdown-menu"
+          >
+            <a
+              className="dropdown-item"
+              href="#"
+            >
+              State 1
+            </a>
+            <a
+              className="dropdown-item"
+              href="#"
+            >
+              State 2
+            </a>
+            <a
+              className="dropdown-item"
+              href="#"
+            >
+              State 3
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="ccountrytxt"
+        >
+          Country:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="ccountrytxt"
+            name="countryContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="USA"
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="czippostaltxt"
+        >
+          Zip or Postal Code:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="czippostaltxt"
+            name="zipOrPostalcodeContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (US 12345/Canadian a1b 23c)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="cphonetxt"
+        >
+          Phone Number:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="cphonetxt"
+            name="phoneNumContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (123-456-7890)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="cfaxtxt"
+        >
+          Fax Number:
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="cfaxtxt"
+            name="faxNumContactPerson"
+            onChange={[Function]}
+            type="text"
+          />
+          <small
+            className="form-text text-muted"
+          >
+            (123-456-7890)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="cemailtxt"
+        >
+          E-mail:*
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="cemailtxt"
+            name="emailContactPerson"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            (abc@example.com)
+          </small>
+        </div>
+      </div>
+      <div
+        className="form-group row"
+      >
+        <label
+          className="col-sm-4 col-form-label"
+          htmlFor="cdeptloctxt"
+        >
+          Department/Location:
+        </label>
+        <div
+          className="col-sm-8"
+        >
+          <input
+            className="form-control"
+            id="cdeptloctxt"
+            name="departmentOrLocationContactPerson"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      Aggregator/Broker 
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="form-group row"
+      >
+        <div
+          className="col-sm-8"
+        >
+          <div
+            className="form-check form-check-inline"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="aggregator"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="defaultCheck1"
+            >
+              Aggregator
+            </label>
+          </div>
+          <div
+            className="form-check form-check-inline"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              id="defaultCheck1"
+              name="broker"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="defaultCheck1"
+            >
+              Broker
+            </label>
+          </div>
+          <small
+            className="form-text text-muted"
+          >
+            Check these boxes to have contact information posted on the corresponding public report of Aggregator and/or Brokers.
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-group row"
+  >
+    <button
+      className="btn btn-primary"
+      id="formbutton"
+      onClick={[Function]}
+    >
+      Submit for Approval
+    </button>
+          
+    <button
+      className="btn btn-primary"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;
